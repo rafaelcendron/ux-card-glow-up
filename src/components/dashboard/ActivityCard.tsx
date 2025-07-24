@@ -2,6 +2,7 @@ import { Clock, TrendingUp, Calendar } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 interface ActivityCardProps {
+  title?: string;
   totalHours: number;
   totalActivities: number;
   period: string;
@@ -9,6 +10,7 @@ interface ActivityCardProps {
 }
 
 export function ActivityCard({ 
+  title = "TOTAL DE ATIVIDADES",
   totalHours, 
   totalActivities, 
   period, 
@@ -61,7 +63,7 @@ export function ActivityCard({
             </div>
             <div>
               <h3 className="text-sm font-semibold text-muted-foreground tracking-wide uppercase">
-                Total de Atividades
+                {title}
               </h3>
               {getTrendIcon(trend)}
             </div>
