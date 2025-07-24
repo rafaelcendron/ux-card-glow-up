@@ -44,7 +44,7 @@ export function ActivityCard({
   };
 
   return (
-    <Card className="relative overflow-hidden border-0 bg-gradient-card backdrop-blur-sm shadow-card hover:shadow-card-hover transition-all duration-300 group hover:scale-[1.02] animate-float">
+    <Card className="relative overflow-hidden border-0 bg-gradient-card backdrop-blur-sm shadow-card hover:shadow-card-hover transition-all duration-300 group hover:scale-[1.02]">
       {/* Background gradient overlay */}
       <div className="absolute inset-0 bg-gradient-primary opacity-0 group-hover:opacity-5 transition-opacity duration-300" />
       
