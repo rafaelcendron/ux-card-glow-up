@@ -2,7 +2,7 @@ import { ActivityCard } from "@/components/dashboard/ActivityCard";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary/5 via-background to-purple-50/20 p-8">
+    <div className="min-h-screen bg-gradient-to-br from-purple-100 via-purple-50 to-primary/10 p-8">
       <div className="max-w-7xl mx-auto">
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-foreground mb-2">
