@@ -122,4 +122,8 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
   }
+
+  .dashboard-bg {
+    background: linear-gradient(135deg, hsl(268 50% 95%), hsl(264 40% 92%), hsl(270 60% 96%));
+  }
 }
